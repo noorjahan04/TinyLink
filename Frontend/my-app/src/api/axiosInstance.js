@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'https://tinylink-k9hl.onrender.com/';
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://tinylink-1-24zd.onrender.com/';
 
 const axiosInstance = axios.create({
   baseURL: API_BASE,
